@@ -49,15 +49,19 @@ namespace PizzaBox.Domain.Models.Locations
     // [III]. FOOT
     public override string ToString()
     {
+      //  a) head
       StringBuilder sb = new StringBuilder();
+
+      //  b) body
       sb.Append(Number);
       sb.Append(" " + Letters);
       sb.Append(" " + StreetName);
       sb.Append(" " + Direction);
 
+      //  c) foot
       return sb.ToString();
-    }// /'ToString'
+    }// /fx 'ToString'
 
   }// /cla 'StreetAddress'
 }// ns '..Models/."
- // EoF
+ // [EoF]
