@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hGYEskXwyTcGzgdqfaAGb5IXQWM1+0A55B6FjGZCqHr3cTjuMzE2G8bdck9fIgNQ3g5gx9E5tEniDjrWM/DXNg==",
+  "dgSpecHash": "JO1CS4ChD5PpcLJJ+vlm3lLDh1cd40i68ClkmsANZ4YAxoXHrG1PmruFZ1cwnRdcGH3WzEltTxSmRirDLuLRmA==",
   "success": true,
-  "projectFilePath": "/home/jasonw/revature/project_clerktracker/Clerktracker.Storage/Clerktracker.Storage.csproj",
+  "projectFilePath": "/home/jasonw/revature/project_clerktracker/ClerkTracker.Storage/ClerkTracker.Storage.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ClerkTracker.Storage/1.0.0": {
+        "dependencies": {
+          "ClerkTracker.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ClerkTracker.Storage.dll": {}
+        }
+      },
+      "ClerkTracker.Domain/1.0.0": {
+        "runtime": {
+          "ClerkTracker.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ClerkTracker.Storage/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClerkTracker.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

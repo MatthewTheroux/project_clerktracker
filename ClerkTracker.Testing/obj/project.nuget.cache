@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bQ6d5wjdP/9v8zyFYl3Y6hxlw1/xVjaXxjrLZ1DcHUMvfPekLJuHVpryvtsHMnrY5WGt+T9yY/xxXAWVY+IrUg==",
+  "dgSpecHash": "U8Oqr6rKDKricSkaFEpkV44/6heljah9krNWV/W08RvpYMmP/79T/uurMi06A3RcoCbqk36DGw5SZJm1/W+hSw==",
   "success": true,
-  "projectFilePath": "/home/jasonw/revature/project_clerktracker/Clerktracker.Testing/Clerktracker.Testing.csproj",
+  "projectFilePath": "/home/jasonw/revature/project_clerktracker/ClerkTracker.Testing/ClerkTracker.Testing.csproj",
   "expectedPackageFiles": [
     "/home/jasonw/.nuget/packages/coverlet.collector/1.3.0/coverlet.collector.1.3.0.nupkg.sha512",
     "/home/jasonw/.nuget/packages/microsoft.codecoverage/16.7.1/microsoft.codecoverage.16.7.1.nupkg.sha512",

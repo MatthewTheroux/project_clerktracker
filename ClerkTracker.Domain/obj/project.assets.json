@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jasonw/revature/project_clerktracker/clerktracker.domain/clerktracker.domain.csproj",
-      "projectName": "clerktracker.domain",
-      "projectPath": "/home/jasonw/revature/project_clerktracker/clerktracker.domain/clerktracker.domain.csproj",
+      "projectUniqueName": "/home/jasonw/revature/project_clerktracker/ClerkTracker.Domain/ClerkTracker.Domain.csproj",
+      "projectName": "ClerkTracker.Domain",
+      "projectPath": "/home/jasonw/revature/project_clerktracker/ClerkTracker.Domain/ClerkTracker.Domain.csproj",
       "packagesPath": "/home/jasonw/.nuget/packages/",
-      "outputPath": "/home/jasonw/revature/project_clerktracker/clerktracker.domain/obj/",
+      "outputPath": "/home/jasonw/revature/project_clerktracker/ClerkTracker.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/jasonw/.nuget/NuGet/NuGet.Config"

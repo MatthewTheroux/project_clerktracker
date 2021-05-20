@@ -1,0 +1,15 @@
+/home/jasonw/revature/project_clerktracker/ClerkTracker.Storage/bin/Debug/net5.0/ClerkTracker.Storage.deps.json
+/home/jasonw/revature/project_clerktracker/ClerkTracker.Storage/bin/Debug/net5.0/ClerkTracker.Storage.dll
+/home/jasonw/revature/project_clerktracker/ClerkTracker.Storage/bin/Debug/net5.0/ref/ClerkTracker.Storage.dll
+/home/jasonw/revature/project_clerktracker/ClerkTracker.Storage/bin/Debug/net5.0/ClerkTracker.Storage.pdb
+/home/jasonw/revature/project_clerktracker/ClerkTracker.Storage/bin/Debug/net5.0/ClerkTracker.Domain.dll
+/home/jasonw/revature/project_clerktracker/ClerkTracker.Storage/bin/Debug/net5.0/ClerkTracker.Domain.pdb
+/home/jasonw/revature/project_clerktracker/ClerkTracker.Storage/obj/Debug/net5.0/ClerkTracker.Storage.csprojAssemblyReference.cache
+/home/jasonw/revature/project_clerktracker/ClerkTracker.Storage/obj/Debug/net5.0/ClerkTracker.Storage.GeneratedMSBuildEditorConfig.editorconfig
+/home/jasonw/revature/project_clerktracker/ClerkTracker.Storage/obj/Debug/net5.0/ClerkTracker.Storage.AssemblyInfoInputs.cache
+/home/jasonw/revature/project_clerktracker/ClerkTracker.Storage/obj/Debug/net5.0/ClerkTracker.Storage.AssemblyInfo.cs
+/home/jasonw/revature/project_clerktracker/ClerkTracker.Storage/obj/Debug/net5.0/ClerkTracker.Storage.csproj.CoreCompileInputs.cache
+/home/jasonw/revature/project_clerktracker/ClerkTracker.Storage/obj/Debug/net5.0/ClerkTracker.Storage.csproj.CopyComplete
+/home/jasonw/revature/project_clerktracker/ClerkTracker.Storage/obj/Debug/net5.0/ClerkTracker.Storage.dll
+/home/jasonw/revature/project_clerktracker/ClerkTracker.Storage/obj/Debug/net5.0/ref/ClerkTracker.Storage.dll
+/home/jasonw/revature/project_clerktracker/ClerkTracker.Storage/obj/Debug/net5.0/ClerkTracker.Storage.pdb

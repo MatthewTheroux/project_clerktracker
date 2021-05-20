@@ -4,6 +4,13 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: dotnet build
+  
+  tests:
+     runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - run: dotnet test -p:CollectCoverage=true -p:CoverletOutputFormat=opencover -l trx
+
 
 name: ci-pipeline
 on: push

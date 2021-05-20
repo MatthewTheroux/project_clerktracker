@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2/MfGK38wrez1muh4SFhNciLntlwTBP1qvV7bRMHQegDNQGx96Ma6pi0ulvhJQAI5AlErmrqNwaQa0mdbrMk4w==",
+  "dgSpecHash": "ZiLI4bxqtQ44VbR82+2USlIBvcURKrNX7HKQEOFrY7ET4RD1WpfXPFnBUQdoU3yUBaQgLo260SyOUqQcspiEXA==",
   "success": true,
-  "projectFilePath": "/home/jasonw/revature/project_clerktracker/clerktracker.domain/clerktracker.domain.csproj",
+  "projectFilePath": "/home/jasonw/revature/project_clerktracker/ClerkTracker.Domain/ClerkTracker.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
