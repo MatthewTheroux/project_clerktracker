@@ -87,10 +87,6 @@
 /home/jasonw/revature/project_clerktracker/ClerkTracker.Testing/bin/Debug/net5.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 /home/jasonw/revature/project_clerktracker/ClerkTracker.Testing/bin/Debug/net5.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 /home/jasonw/revature/project_clerktracker/ClerkTracker.Testing/bin/Debug/net5.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-/home/jasonw/revature/project_clerktracker/ClerkTracker.Testing/bin/Debug/net5.0/ClerkTracker.Domain.dll
-/home/jasonw/revature/project_clerktracker/ClerkTracker.Testing/bin/Debug/net5.0/ClerkTracker.Storage.dll
-/home/jasonw/revature/project_clerktracker/ClerkTracker.Testing/bin/Debug/net5.0/ClerkTracker.Domain.pdb
-/home/jasonw/revature/project_clerktracker/ClerkTracker.Testing/bin/Debug/net5.0/ClerkTracker.Storage.pdb
 /home/jasonw/revature/project_clerktracker/ClerkTracker.Testing/obj/Debug/net5.0/ClerkTracker.Testing.csprojAssemblyReference.cache
 /home/jasonw/revature/project_clerktracker/ClerkTracker.Testing/obj/Debug/net5.0/ClerkTracker.Testing.GeneratedMSBuildEditorConfig.editorconfig
 /home/jasonw/revature/project_clerktracker/ClerkTracker.Testing/obj/Debug/net5.0/ClerkTracker.Testing.AssemblyInfoInputs.cache

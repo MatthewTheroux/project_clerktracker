@@ -1648,29 +1648,6 @@
         "build": {
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
-      },
-      "ClerkTracker.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/ClerkTracker.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ClerkTracker.Domain.dll": {}
-        }
-      },
-      "ClerkTracker.Storage/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "ClerkTracker.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/ClerkTracker.Storage.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ClerkTracker.Storage.dll": {}
-        }
       }
     }
   },
@@ -5634,22 +5611,10 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
-    },
-    "ClerkTracker.Domain/1.0.0": {
-      "type": "project",
-      "path": "../ClerkTracker.Domain/ClerkTracker.Domain.csproj",
-      "msbuildProject": "../ClerkTracker.Domain/ClerkTracker.Domain.csproj"
-    },
-    "ClerkTracker.Storage/1.0.0": {
-      "type": "project",
-      "path": "../ClerkTracker.Storage/ClerkTracker.Storage.csproj",
-      "msbuildProject": "../ClerkTracker.Storage/ClerkTracker.Storage.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "ClerkTracker.Domain >= 1.0.0",
-      "ClerkTracker.Storage >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.7.1",
       "coverlet.collector >= 1.3.0",
       "xunit >= 2.4.1",
@@ -5680,14 +5645,7 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {
-            "/home/jasonw/revature/project_clerktracker/ClerkTracker.Domain/ClerkTracker.Domain.csproj": {
-              "projectPath": "/home/jasonw/revature/project_clerktracker/ClerkTracker.Domain/ClerkTracker.Domain.csproj"
-            },
-            "/home/jasonw/revature/project_clerktracker/ClerkTracker.Storage/ClerkTracker.Storage.csproj": {
-              "projectPath": "/home/jasonw/revature/project_clerktracker/ClerkTracker.Storage/ClerkTracker.Storage.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

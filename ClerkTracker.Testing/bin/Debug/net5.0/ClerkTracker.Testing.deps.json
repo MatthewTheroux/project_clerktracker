@@ -8,8 +8,6 @@
     ".NETCoreApp,Version=v5.0": {
       "ClerkTracker.Testing/1.0.0": {
         "dependencies": {
-          "ClerkTracker.Domain": "1.0.0",
-          "ClerkTracker.Storage": "1.0.0",
           "Microsoft.NET.Test.Sdk": "16.7.1",
           "coverlet.collector": "1.3.0",
           "xunit": "2.4.1",
@@ -1088,20 +1086,7 @@
           }
         }
       },
-      "xunit.runner.visualstudio/2.4.3": {},
-      "ClerkTracker.Domain/1.0.0": {
-        "runtime": {
-          "ClerkTracker.Domain.dll": {}
-        }
-      },
-      "ClerkTracker.Storage/1.0.0": {
-        "dependencies": {
-          "ClerkTracker.Domain": "1.0.0"
-        },
-        "runtime": {
-          "ClerkTracker.Storage.dll": {}
-        }
-      }
+      "xunit.runner.visualstudio/2.4.3": {}
     }
   },
   "libraries": {
@@ -1746,16 +1731,6 @@
       "sha512": "sha512-kZZSmOmKA8OBlAJaquPXnJJLM9RwQ27H7BMVqfMLUcTi9xHinWGJiWksa3D4NEtz0wZ/nxd2mogObvBgJKCRhQ==",
       "path": "xunit.runner.visualstudio/2.4.3",
       "hashPath": "xunit.runner.visualstudio.2.4.3.nupkg.sha512"
-    },
-    "ClerkTracker.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "ClerkTracker.Storage/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }
