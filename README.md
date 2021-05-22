@@ -6,7 +6,6 @@ Now, keep track of them, in tasks, places, times, and lunches, with "Clerk Track
 (continue soundbyte)....
 
 # authors
-Muhammad Aman
 Jason Wong
 Matthew T. Theroux
 
