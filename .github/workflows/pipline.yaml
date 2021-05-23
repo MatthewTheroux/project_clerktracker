@@ -26,6 +26,21 @@ jobs:
           dotnet sonarscanner begin -k:'project_clerktracker' -o:'matthewtheroux' -d:sonar.host.url='https://sonarcloud.io' -d:sonar.login=$SONAR_TOKEN -d:sonar.cs.opencover.reportsPaths='./test_coverage/*.xml' -d:sonar.cs.vstest.reportsPaths='./test_result/*.trx'
           dotnet build
           dotnet sonarscanner end -d:sonar.login=$SONAR_TOKEN
+    
+  package:
+    env:
+      DOCKER_TOKEN: ${{ secrets.DOCKER_TOKEN }}
+      DOCKER_USER: ${{ secrets.DOCKER_USER }}
+    needs:
+      - analyze
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - run: docker image build -f Dockerfile -t clerktracker .
+      - run: docker image tag clerktracker jasonw679/clerktracker
+      - run: echo $DOCKER_TOKEN | docker login -u $DOCKER_USER --password-stdin
+      - run: docker push jasonw679/clerktracker
+      - run: docker logout
 
 
 name: ci-pipeline
