@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[1.3.0, )"
             },
+            "coverlet.msbuild": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
             "xunit": {
               "target": "Package",
               "version": "[2.4.1, )"
