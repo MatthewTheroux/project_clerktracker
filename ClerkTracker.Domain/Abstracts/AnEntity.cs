@@ -1,11 +1,10 @@
-
-
 namespace ClerkTracker.Domain.Abstracts
 {
-    public class AnEntity
+  public abstract class AnEntity
     {
         //[Unique]
-        public abstract int EntityId {get; set;}
-        public abstract string EntityName {get; set;}
+        public int EntityId {get;  set;}//protected
+        public string EntityName {get;  set;}//protected
+
     }// /cla
 }// /ns

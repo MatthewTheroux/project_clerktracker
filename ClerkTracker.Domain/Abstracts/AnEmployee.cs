@@ -2,7 +2,7 @@
 
 namespace ClerkTracker.Domain.Abstracts
 {
-  public class AnEmployee : APerson
+  public abstract class AnEmployee : APerson
   {
     //  B] Properties
     public int EmployeeId {get; protected set;}

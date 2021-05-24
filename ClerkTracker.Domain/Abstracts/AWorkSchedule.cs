@@ -23,7 +23,7 @@ namespace ClerkTracker.Domain.Abstracts
     public override string ToString()
     {
       //  a) head
-      StringBuilder table = "";
+      StringBuilder table = new StringBuilder();
       int index = 0;
       
       //  b) body

@@ -6,37 +6,34 @@ using System.Text;
 /// 
 namespace PizzaBox.Domain.Models.Locations
 {
+  /// 
   public class Address
   {
     //  B] Fields & Properties
-    private string _name;
-    // private int _streetNumber;
-    // private string _streetNumberCharacters;
-    // private string _streetName;
-    private string _city;
-    private string _province;
-    private string _provinceCode;
-    private string _postalCode;
-    private string _country;
-    private string _countryCode;
+    public string Name {get; private set;} 
+    public StreetAddress StreetAddress {get; private set;} 
+    public string City {get; private set;} 
+    public string Province {get; private set;} // 'State'
+    public string ProvinceCode {get; private set;} 
+    public string PostalCode {get; private set;} // 'zip'
+    public string Country {get; private set;} 
+    public string CountryCode {get; private set;} 
 
     //  C] Constructors
-    // Focus on this, later.
+    // [II]. BODY
     public Address()
     {
-      //default: 300 Alamo Plaza, San Antonio, TX 78205
-      _name = "The Alamo";
-      // _streetNumber = 300;
-      // _streetName = "Alamo Plaza";
-      _city = "San Antonio";
-      _province = "Texas";
-      _provinceCode = "TX";
-      _postalCode = "78205";
-      _country = "United States";
-      _countryCode = "USA";
+      //default = 300 Alamo Plaza, San Antonio, TX 78205
+      Name = "The Alamo";
+      StreetAddress = new StreetAddress();
+      City = "San Antonio";
+      Province = "Texas";
+      ProvinceCode = "TX";
+      PostalCode = "78205";
+      Country = "United States";
+      CountryCode = "USA";
     }
 
-    // [II]. BODY
     // [III]. FOOT
     public override string ToString()
     {

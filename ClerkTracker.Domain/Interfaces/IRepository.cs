@@ -20,4 +20,4 @@ namespace PizzaBox.Domain.Interfaces
     public bool Delete(T item);
   }// /ifc 'IRepository'
 }// /ns '..Interfaces'
- // EoF
+ // [EoF]

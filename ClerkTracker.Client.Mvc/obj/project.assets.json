@@ -8,34 +8,24 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Matth\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/root/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Matth\\VSCode\\Revature\\Training\\ClerkTracker_v01_MT\\ClerkTracker.Client\\ClerkTracker.Client.csproj",
-      "projectName": "ClerkTracker.Client",
-      "projectPath": "C:\\Users\\Matth\\VSCode\\Revature\\Training\\ClerkTracker_v01_MT\\ClerkTracker.Client\\ClerkTracker.Client.csproj",
-      "packagesPath": "C:\\Users\\Matth\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Matth\\VSCode\\Revature\\Training\\ClerkTracker_v01_MT\\ClerkTracker.Client\\obj\\",
+      "projectUniqueName": "/mnt/c/Users/Matth/VSCode/Revature/Training/ClerkTracker_v01_MT/ClerkTracker.Client.Mvc/ClerkTracker.Client.Mvc.csproj",
+      "projectName": "ClerkTracker.Client.Mvc",
+      "projectPath": "/mnt/c/Users/Matth/VSCode/Revature/Training/ClerkTracker_v01_MT/ClerkTracker.Client.Mvc/ClerkTracker.Client.Mvc.csproj",
+      "packagesPath": "/root/.nuget/packages/",
+      "outputPath": "/mnt/c/Users/Matth/VSCode/Revature/Training/ClerkTracker_v01_MT/ClerkTracker.Client.Mvc/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Matth\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -71,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
       }
     }
   }

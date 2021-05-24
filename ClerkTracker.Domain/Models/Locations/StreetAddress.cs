@@ -1,6 +1,5 @@
 // [I]. HEAD
 //  A] Libraries
-using System.IO;
 using System.Text;
 
 namespace PizzaBox.Domain.Models.Locations
@@ -46,7 +45,12 @@ namespace PizzaBox.Domain.Models.Locations
       Direction = _direction;
     }// /smart cxtr
 
+    /// default constructor = 300 Alamo Plaza
+    public StreetAddress():this(300, "Alamo Plaza"){}
+
+
     // [III]. FOOT
+    /// the string representation of a StreetAddress
     public override string ToString()
     {
       //  a) head

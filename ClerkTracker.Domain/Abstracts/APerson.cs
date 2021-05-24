@@ -1,11 +1,11 @@
 // [I]. HEAD
 //  A] Libraries
-using ClerkTracker.Domain.Models.Locations;
+using ClerkTracker.Domain.Models;//.Locations;
 
 /// 
 namespace ClerkTracker.Domain.Abstracts
 {
-    public class APerson : AnEntity
+    public abstract class APerson : AnEntity
     {
         public string FirstName {get; set;}
         public string LastName {get; set;}
@@ -16,7 +16,7 @@ namespace ClerkTracker.Domain.Abstracts
 
         public int Ssn {get;} = 987654321;
 
-        public Address address {get; set;}
+        //public Address address {get; set;}
 
         // [II]. BODY
         public APerson()

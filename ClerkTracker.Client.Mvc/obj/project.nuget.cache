@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C00T4PohftnPvAOAUvGbVWZyZRtsVBQHcJmBHhUHY6kKAN+Ot11/XnLeK6cwL7uAV3dKMUaOnLbQEIXa6lYsGQ==",
+  "dgSpecHash": "4CXUuCtSHTblf8SwoOcbZKDKgiaFdt8nG3hIqToNEuzYz8NpUszfV817zjMbCRQnlXDqpBt6smgqMvaxAnbGCg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Matth\\VSCode\\Revature\\Training\\ClerkTracker_v01_MT\\ClerkTracker.Client\\ClerkTracker.Client.csproj",
+  "projectFilePath": "/mnt/c/Users/Matth/VSCode/Revature/Training/ClerkTracker_v01_MT/ClerkTracker.Client.Mvc/ClerkTracker.Client.Mvc.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
