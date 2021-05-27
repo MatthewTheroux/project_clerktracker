@@ -12,9 +12,9 @@ namespace ClerkTracker.Client.Mvc.Controllers
   [Route("[controller]")]
   public class DailyClerkPlanController : Controller
   {
-    public IActionResult ManageClerkDevices() { return View(); }
+    public IActionResult ManageClerkDevices() { return View("DailyClerkPlan"); }
 
-    public IActionResult MessageClerk() { return View(); }
+    //public IActionResult MessageClerk() { return View(); }
 
   }// /cla
 }// /ns '..Mvc.Controllers'

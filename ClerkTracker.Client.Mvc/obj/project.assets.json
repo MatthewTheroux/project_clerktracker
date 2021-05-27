@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "/root/.nuget/packages/": {}
+    "/home/jasonw/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/c/Users/Matth/VSCode/Revature/Training/ClerkTracker_v01_MT/ClerkTracker.Client.Mvc/ClerkTracker.Client.Mvc.csproj",
+      "projectUniqueName": "/home/jasonw/revature/project_clerktracker/ClerkTracker.Client.Mvc/ClerkTracker.Client.Mvc.csproj",
       "projectName": "ClerkTracker.Client.Mvc",
-      "projectPath": "/mnt/c/Users/Matth/VSCode/Revature/Training/ClerkTracker_v01_MT/ClerkTracker.Client.Mvc/ClerkTracker.Client.Mvc.csproj",
-      "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/mnt/c/Users/Matth/VSCode/Revature/Training/ClerkTracker_v01_MT/ClerkTracker.Client.Mvc/obj/",
+      "projectPath": "/home/jasonw/revature/project_clerktracker/ClerkTracker.Client.Mvc/ClerkTracker.Client.Mvc.csproj",
+      "packagesPath": "/home/jasonw/.nuget/packages/",
+      "outputPath": "/home/jasonw/revature/project_clerktracker/ClerkTracker.Client.Mvc/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/root/.nuget/NuGet/NuGet.Config"
+        "/home/jasonw/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
       }
     }
   }
