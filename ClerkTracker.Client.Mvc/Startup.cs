@@ -1,8 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.AspNetCore.Antiforgery;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
@@ -11,8 +9,12 @@ using Microsoft.Extensions.Hosting;
 
 namespace ClerkTracker.Client.Mvc
 {
+
+    /// the entry point for a web application
     public class Startup
     {
+        readonly string AllowSpecificOrigins = "_allowSpecificOrigins";
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -20,13 +22,28 @@ namespace ClerkTracker.Client.Mvc
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
+        [EnableCors]
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
-        }
+            System.Console.WriteLine("StartUp");
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: AllowSpecificOrigins,
+                              builder =>
+                              {
+                                  builder.WithOrigins("http://example1.com",
+                                                      "http://example1.com"
+                                                      );
+                              });
+            });
+            
+            //  c) foot
+            services.AddControllersWithViews();
+
+
+        }// /'ConfigureServices'
+
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
@@ -36,7 +53,6 @@ namespace ClerkTracker.Client.Mvc
             else
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
             app.UseHttpsRedirection();
@@ -52,6 +68,9 @@ namespace ClerkTracker.Client.Mvc
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
-        }
-    }
-}
+            
+        }// /md 'Configure'
+
+    }// /cla 'StartUp'
+}// /ns 'ClerkTracker.Client.DailyPlan'
+// [EoF]
