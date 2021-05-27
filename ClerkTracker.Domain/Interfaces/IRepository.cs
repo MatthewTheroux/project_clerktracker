@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 
 ///
-namespace PizzaBox.Domain.Interfaces
+namespace ClerkTracker.Domain.Interfaces
 {
   /// Use C.R.U.D.
   public interface IRepository<T> where T : class

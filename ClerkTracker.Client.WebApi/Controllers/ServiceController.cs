@@ -1,14 +1,46 @@
-using Microsoft.AspNetCore.Mvc;
+// [I]. HEAD
+//  A] Libraries
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Cors;
+using Microsoft.Extensions.Logging;
+
+///
 namespace ClerkTracker.Client.WebApi.Controllers
 {
-  [Route("[controller]")]
-  public class ServiceController : ControllerBase
-  {
-    [HttpGet]
-    public IActionResult Get() 
+    /// 
+    [ApiController]
+    [Route("[controller]")]
+    [EnableCors]
+    public class ServiceController : ControllerBase
     {
-      return Ok("'Works.");
-    }
-  }
+        //  B] Properties
+        private static readonly string[] Summaries = new[]
+        {
+            "PlanDay", "DayPlanned"
+        };
+
+        private readonly ILogger<WeatherForecastController> _logger;
+
+        //  C] 
+        /// Load the logging on creation.
+        public ServiceController(ILogger<WeatherForecastController> logger)
+        {
+            _logger = logger;
+        }
+
+        // [II]. BODY
+        [HttpGet]
+        public IActionResult Get()
+        {
+            return Ok("Web Service Connected!");
+        }
+
+        // [III]. FOOT
+        
+    }// /cla 'ServiceController'
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UPr7n3kWJID4b/E0nuo0DtAeGVjr7Wlbv5fF36Z04QtT7WdbIIqNaePUJoBx5AXlJMf05u61e5SNF4c0DkUFNQ==",
+  "dgSpecHash": "/EnbeLWMyB7psiKikxYD1qV0p7CIBz9a/ZCZgvXGuubFLgNGjSmCnkaf9cv2ELAiAdtPYwIovejs5S0WL3jdSQ==",
   "success": true,
-  "projectFilePath": "/mnt/c/Users/Matth/VSCode/Revature/Training/ClerkTracker_v01_MT/ClerkTracker.Testing/ClerkTracker.Testing.csproj",
+  "projectFilePath": "/mnt/c/Users/Matth/VSCode/Revature/Training/ClerkTracker/ClerkTracker_WebApi/ClerkTracker.Testing/ClerkTracker.Testing.csproj",
   "expectedPackageFiles": [
     "/root/.nuget/packages/coverlet.collector/1.3.0/coverlet.collector.1.3.0.nupkg.sha512",
     "/root/.nuget/packages/coverlet.msbuild/3.0.3/coverlet.msbuild.3.0.3.nupkg.sha512",

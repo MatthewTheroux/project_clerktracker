@@ -5694,11 +5694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/c/Users/Matth/VSCode/Revature/Training/ClerkTracker_v01_MT/ClerkTracker.Testing/ClerkTracker.Testing.csproj",
+      "projectUniqueName": "/mnt/c/Users/Matth/VSCode/Revature/Training/ClerkTracker/ClerkTracker_WebApi/ClerkTracker.Testing/ClerkTracker.Testing.csproj",
       "projectName": "ClerkTracker.Testing",
-      "projectPath": "/mnt/c/Users/Matth/VSCode/Revature/Training/ClerkTracker_v01_MT/ClerkTracker.Testing/ClerkTracker.Testing.csproj",
+      "projectPath": "/mnt/c/Users/Matth/VSCode/Revature/Training/ClerkTracker/ClerkTracker_WebApi/ClerkTracker.Testing/ClerkTracker.Testing.csproj",
       "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/mnt/c/Users/Matth/VSCode/Revature/Training/ClerkTracker_v01_MT/ClerkTracker.Testing/obj/",
+      "outputPath": "/mnt/c/Users/Matth/VSCode/Revature/Training/ClerkTracker/ClerkTracker_WebApi/ClerkTracker.Testing/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/root/.nuget/NuGet/NuGet.Config"
