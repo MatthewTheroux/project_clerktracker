@@ -1,0 +1,150 @@
+@{
+    ViewData["TodaysClerkPlan"] = "TodaysClerkPlan";
+}
+<!-- [I]. HEAD -->
+<div class="text-center" id="plan-header" class="cler-plan-form">
+    <h1 class="display-4">Clerk Schedule for @DateTime.Now.Date</h1>
+    <h6> Schedule tasks to clerks. </h6>
+</div>
+
+<!-- [II]. BODY -->
+<div id="plan-body">
+  <div id="top-section"> <!-- TOP -->
+    <table name="Cart-Times" id="Cart-Times" class="clerk-slot">
+    <caption>Assigned Cart Times</caption>
+    <tr id="morning-carts"> 
+      <td>7:00am-8:00am</td>
+      <td>8:00am-9:00am</td>
+      <td>9:00am-10:00am</td>
+      <td>10:00am-11:00am</td>
+      <td>11:00am-12:00pm</td>
+    </tr>
+    <tr  id="afternoon-carts"> 
+      <td>12:00pm-1:00pm</td>
+      <td>1:00pm-2:00pm</td>
+      <td>2:00pm-3:00pm</td>
+      <td>3:00pm-4:00pm</td>
+      <td>4:00pm-5:00pm</td>
+    </tr>
+    <tr id="evening-carts"> 
+      <td>5:00pm-6:00pm</td>
+      <td>6:00pm-7:00pm</td>
+      <td>7:00pm-8:00pm</td>
+      <td>8:00pm-9:00pm</td>
+      <td>9:00pm-10:00pm</td>
+    </tr>
+    </table>
+  </div> <!-- /TOP -->
+
+  <div> <!-- NOT-TOP -->
+    <!-- LEFT -->
+    <table id=left-column  class="clerk-slot"> <!--cols=1, rows=6-->
+
+      <tr>  <!-- 1 -->
+      <td id="Bin-Change">
+        <button id="Bin-Change_btn" class="warn"> 
+          Change Bottle Bin
+        </button>
+      </td></tr>
+
+      <tr>  <!-- 2 -->
+      <td id="Recycle-Center">
+        Recycle Center
+      </td></tr>
+
+      <tr> <!-- 3 -->
+      <td id="Lobby">
+        Vestibule / Lobby
+      </td></tr>
+      <!-- /Front Corner -->
+
+      <tr><td> <!-- 4 --> 
+        <button id="Spill-1" class="warn">
+          Spill Alert 1
+        </button>
+      </td></tr>
+
+      <tr><td> <!-- 5 --> 
+        <button id="Spill-2" class="warn">
+          Spill Alert 2
+        </button>
+      </td></tr>
+      <!-- /Spill-Alerts -->
+
+      <tr> <!-- 6 -->
+        <td> <button id="Garbage-Run" class="warn">
+          Garbage Run
+        </button> </td>
+      </tr> 
+
+    </table> <!-- /LEFT-COLUMN -->
+
+    <!-- CENTER CORE -->
+    <table id="center-core" class="clerk-slot">
+      <tr> <!-- 1 -->
+        <td id="Bagging-Area" colspan="3">
+          Bagging Area <small>(default)</small>
+        </td>
+      </tr> 
+
+      <tr id="Floor-Sweeps"> <!-- 2 -->
+        <td>10:00am sweep</td>
+        <td>12:00pm sweep</td>
+        <td>2:00pm sweep</td>
+      </tr>
+      <tr id="Floor-Sweeps"> <!-- 3 -->
+        <td>4:00pm sweep</td>
+        <td>6:00pm sweep</td>
+        <td>8:00pm sweep</td>
+      </tr>
+      <!-- /Floor-Sweeps -->
+      
+    </table> <!-- /CENTER-CORE -->
+
+    <!-- [III]. FOOT -->
+    <!-- Clerks to Distribute -->
+    <table id="clerks">
+      <tr> <!-- 5 -->
+        <!-- <td><button>ClerkContext.TodaysClerks[1]</button></td> -->
+        <td><button>Ted </button></td>
+        <td><button>Kyle </button></td>
+        <td><button>Billy</button></td>
+        <td><button>Mac</button></td>
+      </tr>
+      <tr> <!-- 6 -->
+        <td><button>Jill</button></td>
+        <td><button>Tammi</button></td>
+        <td><button>John</button></td>
+        <td><button>Wayne</button></td>
+      </tr>
+      <tr> <!-- 7 -->
+        <td><button>Toni</button></td>
+        <td><button>Herald</button></td>
+        <td><button>Frank</button></td>
+        <td><button>Julie</button></td>
+      </tr>
+    </table>  
+    <!-- /CLERKS -->
+
+    <!-- Insert breaks, here -->
+
+  </div> <!-- /NOT-TOP -->
+
+
+  <!-- RIGHT-COLUMN -->
+  <div id="right-column">
+    <table rowspan="9" id=Restroom-Checks class="clerk-slot">
+      <caption> Restrooms </caption>
+      <tr><td>6:00am</td></tr>
+      <tr><td>8:00am</td></tr>
+      <tr><td>10:00am</td></tr>
+      <tr><td>12:00pm</td></tr>
+      <tr><td>2:00pm</td></tr>
+      <tr><td>4:00pm</td></tr>
+      <tr><td>6:00pm</td></tr>
+      <tr><td>8:00pm</td></tr>
+      <tr><td>10:00pm</td></tr>
+    </table>
+  </div><!-- /RIGHT-COLUMN--> 
+
+</div> <!-- /FORM -->
