@@ -1,21 +1,46 @@
+using System.Collections.Generic;
+
 using ClerkTracker.Domain.Models;
-//using ClerkTracker.Domain.Models.Locations;
+using ClerkTracker.Domain.Models.Locations;
 
 namespace ClerkTracker.Domain.Abstracts
 {
   public abstract class AStore : AnEntity
   {
-    public AnEmployer Chain {get; protected set;} 
+    public string Name {get;  set;} 
 
-    public int StoreNumber {get; protected set;}
+    public AnEmployer Employer {get; set;}
 
-    //public Address Location{get; protected set;}
+    public int StoreNumber {get;  set;}
+
+    public Address Location{get; protected set;}
+
+    public List<AnEmployee> Employees {get; set;}
+
+
+    // [II]. BODY
+    public AStore(string name)
+    {
+      Name = name;
+    }
+
+    public AStore(int storeNumber)
+    {
+      EntityId = StoreNumber = storeNumber;
+    }
+
+    public AStore(string chain, int storeNumber)
+    {
+      Name = chain;
+      EntityId = StoreNumber = storeNumber;
+    }
+
 
 
     // [III]. FOOT
     public override string ToString()
     {
-      return $"{Chain} #{StoreNumber}";
+      return $"{Name} #{StoreNumber}";
     }
 
   }// /cla 'AStore'

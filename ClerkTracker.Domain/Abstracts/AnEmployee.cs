@@ -14,6 +14,14 @@ namespace ClerkTracker.Domain.Abstracts
 
     public AStore Store {get; protected set;}
 
+
+    // [II]. BODY
+    public AnEmployee()
+    {
+      EmployeeId = EntityId;
+    }
+    public AnEmployee(string firstName, string lastName):base(firstName, lastName){}
+
     // [III]. FOOT
     public override string ToString()
     {

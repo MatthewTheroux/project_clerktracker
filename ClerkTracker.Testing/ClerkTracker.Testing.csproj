@@ -25,6 +25,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ClerkTracker.Client\ClerkTracker.Client.csproj" />
+    <ProjectReference Include="..\ClerkTracker.Domain\ClerkTracker.Domain.csproj" />
+    <ProjectReference Include="..\ClerkTracker.Storage\ClerkTracker.Storage.csproj" />
+    <ProjectReference Include="..\ClerkTracker.Client.WebApi\ClerkTracker.Client.WebApi.csproj" />
   </ItemGroup>
 
 </Project>

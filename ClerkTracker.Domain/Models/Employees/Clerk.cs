@@ -2,7 +2,7 @@ using ClerkTracker.Domain.Abstracts;
 
 namespace ClerkTracker.Domain.Models.Employees
 {
-  public class Clerk : AnEmployee
+  public class Clerk : GroceryEmployee
   {
     
   }// /cla 'Clerk'

@@ -4,7 +4,7 @@ using System;
 using System.Text;
 
 /// 
-namespace PizzaBox.Domain.Models.Locations
+namespace ClerkTracker.Domain.Models.Locations
 {
   /// 
   public class Address

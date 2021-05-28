@@ -1,6 +1,8 @@
 // [I]. HEAD
 //  A] Libraries
-using ClerkTracker.Domain.Models;//.Locations;
+// [I]. HEAAD
+//  A] Libraries
+using ClerkTracker.Domain.Models.Locations;
 
 /// 
 namespace ClerkTracker.Domain.Abstracts
@@ -16,13 +18,22 @@ namespace ClerkTracker.Domain.Abstracts
 
         public int Ssn {get;} = 987654321;
 
-        //public Address address {get; set;}
+        public Address address {get; set;}
 
         // [II]. BODY
-        public APerson()
+        public APerson() {  }
+
+        public APerson(string firstName, string lastName):this()
         {
-            EntityId = Ssn;
+            FirstName = firstName;
+            LastName = lastName;
         }
+
+        public APerson(int ssn):this()
+        {
+            Ssn = ssn;
+        }
+
 
         // [III]. FOOT
         public override string ToString()
