@@ -32,8 +32,8 @@ namespace ClerkTracker.Client.Mvc
                 options.AddPolicy(name: AllowSpecificOrigins,
                               builder =>
                               {
-                                  builder.WithOrigins("http://example1.com",
-                                                      "http://example1.com"
+                                  builder.WithOrigins("https://example1.com",
+                                                      "https://example1.com"
                                                       );
                               });
             });
