@@ -1,0 +1,51 @@
+*
+{
+  color: aliceblue;
+  background-color: black;
+}
+
+button
+{
+  color:rebeccapurple;
+  background-color: darkorchid;
+}
+
+.horizontal-spread
+{
+  display:"inline-block"
+}
+
+p.clerk-slot
+{
+  text-emphasis: "true";
+}
+
+.warn
+{
+  color:goldenrod;
+  background-color:lightyellow;
+}
+
+.go
+{
+  color: darkgreen;
+  background-color: lightseagreen;
+}
+
+.stop
+{
+  color:darkred;
+  background-color: mediumvioletred;
+}
+
+.calm
+{
+  color:darkslateblue;
+  background-color: cornflowerblue;
+}
+
+#Restroom-Checks
+{
+  color:brown;
+  background-color: chocolate;
+}
